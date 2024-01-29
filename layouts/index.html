@@ -1,0 +1,7 @@
+{{ define "main" }}
+	<main>
+		{{ $paginator := .Paginate (where .Site.RegularPages "Type" "in" .Site.Params.mainSections) }}
+    <h1>Welcome to hackerhöhle.org!</h1>
+    <p>We are a community of people who believe in a free and decentralized internet. We provide privacy-friendly services without tracking or other restrictions at hackerhöhle.org.</p>
+	</main>
+{{ end }}

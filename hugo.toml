@@ -1,0 +1,21 @@
+baseURL = 'https://xn--hackerhhle-kcb.org/'
+languageCode = 'en-us'
+title = 'hackerhöhle.org'
+theme = 'smol'
+
+[menu]
+  [[menu.main]]
+    identifier = "services"
+    name = "Services"
+    url = "/services/"
+    weight = 1
+  [[menu.main]]
+    identifier = "changelog"
+    name = "Changelog"
+    url = "/changelog/"
+    weight = 2
+  [[menu.main]]
+    identifier = "contact"
+    name = "Contact"
+    url = "/contact/"
+    weight = 3
