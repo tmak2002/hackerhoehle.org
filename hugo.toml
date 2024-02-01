@@ -15,7 +15,12 @@ theme = 'smol'
     url = "/changelog/"
     weight = 2
   [[menu.main]]
+    identifier = "status"
+    name = "Status"
+    url = "https://status.xn--hackerhhle-kcb.org/"
+    weight = 3
+  [[menu.main]]
     identifier = "contact"
     name = "Contact"
     url = "/contact/"
-    weight = 3
+    weight = 4
