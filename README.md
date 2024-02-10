@@ -16,7 +16,7 @@ hugo new content <SECTIONNAME>/<FILENAME>.<FORMAT>
 ```
 #### Run development server
 ```
-hugo dev
+make dev
 ```
 #### Update theme
 ```
