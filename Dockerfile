@@ -1,6 +1,6 @@
 FROM hugomods/hugo AS build
 WORKDIR /app
-COPY .
+COPY . .
 RUN hugo
 
 FROM nginx
