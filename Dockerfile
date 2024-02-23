@@ -1,6 +1,7 @@
 FROM hugomods/hugo AS build
 WORKDIR /app
 COPY . .
+RUN git submodule update --init --recursive
 RUN hugo
 
 FROM nginx
